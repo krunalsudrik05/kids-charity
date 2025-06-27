@@ -1,0 +1,20 @@
+.footer {
+  background-color: black;
+  color: white;
+  width: 99.8%;
+  padding: 5px;
+}
+.footer .row .vline {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.footer .card {
+  background-color: black;
+  text-align: center;
+}
+
+.footer .card-text {
+  text-decoration: none;
+  color: white;
+}

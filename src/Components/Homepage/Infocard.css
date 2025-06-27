@@ -1,0 +1,32 @@
+.hbg .card {
+  background-color: #f9bf51;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  margin: 15px;
+}
+
+.hbg .card img {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.hbg .card h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.hbg .card-body .a {
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  text-decoration: none;
+}
+
+.hbg .card .card-body .a:hover {
+  color: white;
+}

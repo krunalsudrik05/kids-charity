@@ -1,0 +1,44 @@
+.abouttext {
+  background-color: #eaeaea;
+  text-align: center;
+  width: 95%;
+  justify-self: center;
+  margin-top: -5px;
+}
+
+.abouttext h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.abimg {
+  display: flex;
+  background-color: #eaeaea;
+  width: 95%;
+  justify-self: center;
+  padding: 25px;
+  justify-content: center;
+}
+
+.city h3 {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f9bf51;
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 10px;
+}
+
+.city ul {
+  background-color: #eaeaea;
+  width: 95%;
+  justify-self: center;
+  margin-top: -7px;
+  margin-bottom: -7px;
+  padding: 15px;
+  text-align: center;
+  list-style-type: none;
+  font-size: 15px;
+}

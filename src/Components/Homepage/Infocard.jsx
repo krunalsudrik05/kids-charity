@@ -1,4 +1,4 @@
-import "./infocard.css";
+import "./Infocard.css";
 import { Link } from "react-router-dom";
 
 const Infocard = ({ img, title, ref }) => {

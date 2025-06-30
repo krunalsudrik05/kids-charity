@@ -56,13 +56,15 @@ function Header() {
                 </a>
               </li>
             </ul>
+            <div className="d-flex">
+              <button type="button" className="btn">
+                LOG IN
+              </button>
+              <button type="button" className="btn">
+                SIGN IN
+              </button>
+            </div>
           </div>
-          <button type="button" className="btn">
-            LOG IN
-          </button>
-          <button type="button" className="btn">
-            SIGN IN
-          </button>
         </div>
       </nav>
     </>

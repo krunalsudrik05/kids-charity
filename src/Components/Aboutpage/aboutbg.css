@@ -13,6 +13,10 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+.abouttext h4 {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .abimg {
   display: flex;
   background-color: #eaeaea;

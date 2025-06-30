@@ -36,9 +36,9 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to={"/Projects"}>
                   PROJECTS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -56,14 +56,14 @@ function Header() {
                 </a>
               </li>
             </ul>
-            <div className="d-flex">
-              <button type="button" className="btn">
-                LOG IN
-              </button>
-              <button type="button" className="btn">
-                SIGN IN
-              </button>
-            </div>
+          </div>
+          <div className="d-flex">
+            <button type="button" className="btn">
+              LOG IN
+            </button>
+            <button type="button" className="btn">
+              SIGN IN
+            </button>
           </div>
         </div>
       </nav>

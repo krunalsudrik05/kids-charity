@@ -1,0 +1,14 @@
+.image-fluid {
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #eaeaea;
+  border: 0px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}

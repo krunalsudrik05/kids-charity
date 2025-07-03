@@ -41,9 +41,9 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to={"/Upcomingevents"}>
                   UPCOMING EVENTS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">

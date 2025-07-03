@@ -33,7 +33,7 @@ const Aboutbg = () => {
           <div className="col-lg-6">
             <h4 className="fw-bold">Our Work</h4>
             <h6>
-              <ul>
+              <ul className="list-unstyled">
                 <li>
                   Providing books, school supplies, and basic needs to children
                   in need.
@@ -55,7 +55,7 @@ const Aboutbg = () => {
       </div>
       <div className="city">
         <h3>OUR BRANCHIES</h3>
-        <ul>
+        <ul className="list-unstyled">
           <li>Vadodara, Gujarat</li>
           <li>Ahemdabad, Gujarat</li>
           <li>Mumbai, Maharashtra</li>

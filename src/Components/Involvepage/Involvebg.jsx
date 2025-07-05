@@ -1,4 +1,4 @@
-import "./Involve.css";
+import "./involve.css";
 import Involvecard from "./Involvecard";
 import volunteer from "./images/volunteer.jpg";
 import student from "./images/student.jpg";

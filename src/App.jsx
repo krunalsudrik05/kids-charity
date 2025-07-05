@@ -3,6 +3,7 @@ import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Upcomingevents from "./Pages/Upcomingevents";
+import Involve from "./Pages/Involve";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/About" element={<About />}></Route>
           <Route path="/Projects" element={<Projects />}></Route>
           <Route path="/Upcomingevents" element={<Upcomingevents />}></Route>
+          <Route path="/Getinvolve" element={<Involve />}></Route>
         </Routes>
       </Router>
     </>

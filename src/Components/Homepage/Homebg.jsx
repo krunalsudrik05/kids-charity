@@ -36,7 +36,7 @@ const Homebg = () => {
         <div className="row">
           <div className="col-12 col-lg-6">
             <div className="col1">
-              <h3>SUPPORT THE CHILDREN</h3>
+              <h3 className="text-center">SUPPORT THE CHILDREN</h3>
               <div className="card border-0">
                 <div className="card-body">
                   <h4 className="card-title">HOW TO HELP</h4>
@@ -90,7 +90,7 @@ const Homebg = () => {
                       <li>Cultural performances</li>
                       <li>Guest talks by educators or social workers</li>
                     </ul>
-                    <a href="#" className="btn">
+                    <a href="/Upcomingevents" className="btn">
                       UPCOMING EVENTS
                     </a>
                   </div>

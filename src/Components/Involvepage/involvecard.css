@@ -1,0 +1,19 @@
+.involve .card {
+  background-color: #eaeaea;
+  justify-self: center;
+}
+
+.involve .card-header {
+  background-color: #f9bf51;
+}
+
+.involve img {
+  align-self: center;
+  height: 90%;
+  width: 90%;
+}
+
+.involve .btn {
+  background-color: #ed6124;
+  color: white;
+}

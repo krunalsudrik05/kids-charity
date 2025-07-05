@@ -1,0 +1,23 @@
+.involvetxt {
+  background-color: #eaeaea;
+  text-align: center;
+  width: 95%;
+  justify-self: center;
+  margin-top: -5px;
+}
+
+.involvetxt h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.involvetxt .row {
+  justify-content: center;
+  padding: 15px;
+}
+
+.involvetxt .col-lg-4 {
+  padding: 15px;
+}

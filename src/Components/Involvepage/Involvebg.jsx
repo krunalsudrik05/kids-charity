@@ -16,6 +16,7 @@ const Involvebg = () => {
               info={
                 "Volunteers play a vital role in supporting kids’ charity and educational projects. By giving their time and skills, they help make learning more accessible and joyful for underprivileged children."
               }
+              ref={"/Contact"}
             />
           </div>
           <div className="col-lg-4">
@@ -25,6 +26,7 @@ const Involvebg = () => {
               info={
                 "Students play a key role in driving change through kids’ charity and educational projects. By getting involved, they contribute to social good while developing leadership, empathy, and teamwork skills."
               }
+              ref={"/Contact"}
             />
           </div>
           <div className="col-lg-4">
@@ -34,6 +36,7 @@ const Involvebg = () => {
               info={
                 "Educators play a vital role in kids' charity and educational initiatives by bringing expertise, mentorship, and structure to learning-focused projects. Their involvement helps ensure that activities are engaging, inclusive, and impactful."
               }
+              ref={"/Contact"}
             />
           </div>
         </div>

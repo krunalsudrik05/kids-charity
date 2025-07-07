@@ -1,5 +1,6 @@
 import "./involvecard.css";
-const Involvecard = ({ title, img, info }) => {
+import { Link } from "react-router-dom";
+const Involvecard = ({ title, img, info, ref }) => {
   return (
     <>
       <div className="card involve">
@@ -9,9 +10,13 @@ const Involvecard = ({ title, img, info }) => {
         <img src={img} className="card-img-top" alt="..." />
         <div className="card-body">
           <p className="card-text">{info}</p>
-          <a href="#" className="btn">
-            APPLY
-          </a>
+          <Link
+            to={ref}
+            className="btn text-white"
+            style={{ backgroundColor: "#ed6124" }}
+          >
+            APPLY HERE
+          </Link>
         </div>
       </div>
     </>

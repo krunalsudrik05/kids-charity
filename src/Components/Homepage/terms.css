@@ -1,0 +1,25 @@
+.termstxt {
+  background-color: #eaeaea;
+  text-align: center;
+  width: 95%;
+  justify-self: center;
+  margin-top: -5px;
+}
+
+.termstxt h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.termstxt h3 {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: -1px;
+  padding: 5px;
+}
+
+.termstxt ul {
+  font-size: 20px;
+  text-align: center;
+}

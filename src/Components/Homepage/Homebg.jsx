@@ -25,7 +25,11 @@ const Homebg = () => {
             <Infocard img={projrctlg} title={"PROJECTS"} ref={"/Projects"} />
           </div>
           <div className="col-md-4 vline">
-            <Infocard img={involvelg} title={"GET INVOLVE"} />
+            <Infocard
+              img={involvelg}
+              title={"GET INVOLVE"}
+              ref={"/Getinvolve"}
+            />
           </div>
         </div>
       </div>

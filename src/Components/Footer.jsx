@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,9 +34,12 @@ const Footer = () => {
             <div className="card border-0">
               <div className="card-body">
                 <h4 className="card-title">Our Policy:</h4>
-                <a className="card-text" href="#">
+                <Link
+                  to="/Terms&conditions"
+                  className="text-decoration-none text-white"
+                >
                   Privacy Policy Terms & Conditions <br /> Refund Policy
-                </a>
+                </Link>
               </div>
             </div>
           </div>

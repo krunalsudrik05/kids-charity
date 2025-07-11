@@ -55,7 +55,7 @@ const Involveform = () => {
           <br />
 
           <button type="submit" className="btn">
-            LOG IN
+            SUBMIT
           </button>
         </form>
       </div>

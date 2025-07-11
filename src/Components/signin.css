@@ -1,27 +1,31 @@
-.contacttxt {
+.signintxt {
   background-color: #eaeaea;
+  text-align: center;
   width: 95%;
   justify-self: center;
   margin-top: -5px;
 }
 
-.contacttxt h2 {
+.signintxt h2 {
   font-size: 45px;
   font-weight: bold;
-  text-align: center;
   margin: 5px;
+  padding: 25px;
   font-family: "Times New Roman", Times, serif;
 }
 
-.contactform {
-  width: 95%;
+.signintxt form {
+  width: 50%;
   justify-self: center;
-  padding: 5px;
+  padding-bottom: 60px;
 }
 
-.contactform .btn {
-  display: flex;
-  justify-self: center;
-  color: white;
+.signintxt input {
+  border: #eaeaea;
+}
+
+.signintxt .btn {
   background-color: #ed6124;
+  color: white;
+  width: 50%;
 }

@@ -1,27 +1,32 @@
-.contacttxt {
+.involveformtxt {
   background-color: #eaeaea;
   width: 95%;
   justify-self: center;
   margin-top: -5px;
 }
 
-.contacttxt h2 {
+.involveformtxt h2 {
   font-size: 45px;
   font-weight: bold;
   text-align: center;
   margin: 5px;
+  padding: 30px;
   font-family: "Times New Roman", Times, serif;
 }
 
-.contactform {
-  width: 95%;
+.involveformtxt form {
+  width: 50%;
   justify-self: center;
-  padding: 5px;
+  padding-bottom: 100px;
 }
 
-.contactform .btn {
+.involveformtxt input {
+  border: #eaeaea;
+}
+
+.involveformtxt .btn {
+  background-color: #ed6124;
   display: flex;
   justify-self: center;
   color: white;
-  background-color: #ed6124;
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Upcomingbg.css";
 import ec from "./images/ec.jpg";
 
@@ -22,9 +23,9 @@ const Upcomingeventsbg = () => {
           Mon, Mar 26, 7:00 PM-11:00 PM,
           <br /> Vadodara, Gujarat
         </h6>
-        <a href="#" className="btn">
+        <Link to={"/Participation"} className="btn">
           Participate
-        </a>
+        </Link>
       </div>
     </>
   );

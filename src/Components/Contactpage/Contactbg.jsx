@@ -42,7 +42,7 @@ const Contactbg = () => {
             </div>
             <div class="col-md-6">
               <label for="phone" class="form-label">
-                Password
+                Contact No.
               </label>
               <input
                 type="tel"

@@ -1,27 +1,32 @@
-.contacttxt {
+.participatetxt {
   background-color: #eaeaea;
   width: 95%;
   justify-self: center;
   margin-top: -5px;
 }
 
-.contacttxt h2 {
+.participatetxt h2 {
   font-size: 45px;
   font-weight: bold;
   text-align: center;
   margin: 5px;
+  padding: 30px;
   font-family: "Times New Roman", Times, serif;
 }
 
-.contactform {
-  width: 95%;
+.participatetxt form {
+  width: 50%;
   justify-self: center;
-  padding: 5px;
+  padding-bottom: 100px;
 }
 
-.contactform .btn {
+.participatetxt input {
+  border: #eaeaea;
+}
+
+.participatetxt .btn {
+  background-color: #ed6124;
   display: flex;
   justify-self: center;
   color: white;
-  background-color: #ed6124;
 }

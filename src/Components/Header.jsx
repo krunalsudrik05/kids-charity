@@ -1,7 +1,12 @@
 import logo from "../assets/logo.avif";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 function Header() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+  };
   return (
     <>
       <div className="container-fluid logo">
@@ -58,12 +63,20 @@ function Header() {
             </ul>
           </div>
           <div className="d-flex">
-            <button type="button" className="btn">
-              LOG IN
-            </button>
-            <button type="button" className="btn">
-              SIGN IN
-            </button>
+            {isLoggedIn ? (
+              <button className="btn btn-danger" onClick={handleLogout}>
+                LOG OUT
+              </button>
+            ) : (
+              <>
+                <Link to="/Login" className="btn">
+                  LOG IN
+                </Link>
+                <Link to="/Signin" className="btn">
+                  SIGN IN
+                </Link>
+              </>
+            )}
           </div>
         </div>
       </nav>

@@ -5,6 +5,7 @@ import projrctlg from "./images/projectlg.avif";
 import involvelg from "./images/involvelg.avif";
 import homeevent from "./images/homeevent.jpg";
 import "./Homebg.css";
+import { Link } from "react-router-dom";
 
 const Homebg = () => {
   return (
@@ -94,9 +95,9 @@ const Homebg = () => {
                       <li>Cultural performances</li>
                       <li>Guest talks by educators or social workers</li>
                     </ul>
-                    <a href="/Upcomingevents" className="btn">
+                    <Link to={"/Upcomingevents"} className="btn">
                       UPCOMING EVENTS
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

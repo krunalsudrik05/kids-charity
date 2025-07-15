@@ -10,6 +10,7 @@ import Login from "./Components/Login";
 import Signin from "./Components/Signin";
 import Participationform from "./Components/Upcomingeventspage/Participationform";
 import Involveform from "./Components/Involvepage/Involveform";
+import Dashboard from "./Adminpages/Dashboard";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/Signin" element={<Signin />}></Route>
           <Route path="/Participation" element={<Participationform />}></Route>
           <Route path="/Involveform" element={<Involveform />}></Route>
+          <Route path="/Admin" element={<Dashboard />}></Route>
         </Routes>
       </Router>
     </>

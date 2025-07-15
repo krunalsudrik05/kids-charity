@@ -77,24 +77,33 @@ const Homebg = () => {
                 <div className="card border-0">
                   <div className="card-body">
                     <h4 className="card-title">EVENTS</h4>
-                    <h5 className="card-subtitle mb-2 text-muted">
-                      Educational Events
-                    </h5>
                     <p className="card-text">
-                      A Kids Charity Education Event is a community-driven
-                      initiative designed to promote education, awareness, and
-                      compassion among and for children, especially those from
-                      underprivileged backgrounds. These events combine learning
-                      activities with social impact, aiming to make education
-                      accessible, engaging, and meaningful for every child.
+                      The Kids Charity Event was a heartwarming and impactful
+                      program focused on supporting underprivileged children
+                      through education, fun, and care. Held in collaboration
+                      with volunteers, students, and local partners, the event
+                      combined charity, learning, and celebration in a single
+                      day.
                     </p>
                     <ul className="card-text">
-                      <li>Interactive learning stalls</li>
-                      <li>Workshops</li>
-                      <li>book/toy donations</li>
-                      <li>Cultural performances</li>
-                      <li>Guest talks by educators or social workers</li>
+                      <li>
+                        Benefited over thousand number of childrens from
+                        underserved communities
+                      </li>
+                      <li>
+                        Created a joyful, safe, and educational space for every
+                        child
+                      </li>
+                      <li>
+                        Inspired community involvement and promoted the value of
+                        giving and empathy
+                      </li>
                     </ul>
+                    <p className="card-text">
+                      The event was a celebration of hope, learning, and
+                      kindness, reminding everyone that small actions can lead
+                      to big change in a child's life.
+                    </p>
                     <Link to={"/Upcomingevents"} className="btn">
                       UPCOMING EVENTS
                     </Link>

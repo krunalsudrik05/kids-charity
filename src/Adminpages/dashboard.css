@@ -1,0 +1,15 @@
+.dbbg {
+  background-color: #eaeaea;
+  width: 95%;
+  justify-self: center;
+}
+
+.dbbg .row {
+  padding: 15px;
+  width: 100%;
+  justify-self: center;
+}
+
+.dbbg .row .col-lg-3 .col-md-3 {
+  justify-content: center;
+}

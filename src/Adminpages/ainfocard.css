@@ -1,0 +1,12 @@
+.ainfo .card {
+  width: 80%;
+  margin: 5px;
+  justify-self: center;
+  text-align: center;
+  background-color: #f9bf51;
+}
+
+.ainfo .btn {
+  background-color: #ed6124;
+  color: white;
+}

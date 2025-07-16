@@ -11,6 +11,8 @@ import Signin from "./Components/Signin";
 import Participationform from "./Components/Upcomingeventspage/Participationform";
 import Involveform from "./Components/Involvepage/Involveform";
 import Dashboard from "./Adminpages/Dashboard";
+import Adminproject from "./Adminpages/Adminproject";
+import Apform from "./Admincomponent/Adminproject/Apform";
 
 const App = () => {
   return (
@@ -29,6 +31,11 @@ const App = () => {
           <Route path="/Participation" element={<Participationform />}></Route>
           <Route path="/Involveform" element={<Involveform />}></Route>
           <Route path="/Admin" element={<Dashboard />}></Route>
+          <Route path="/Admin/Projects" element={<Adminproject />}></Route>
+          <Route
+            path="/Admin/Projects/Projrctform"
+            element={<Apform />}
+          ></Route>
         </Routes>
       </Router>
     </>

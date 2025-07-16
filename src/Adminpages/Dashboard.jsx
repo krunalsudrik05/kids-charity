@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import Aheader from "../Admincomponent/Aheader";
 import "./dashboard.css";
-import Ainfocard from "./Ainfocard";
-import Achart from "./Achart";
+import Ainfocard from "../Admincomponent/Dashboard/Ainfocard";
+import Achart from "../Admincomponent/Dashboard/Achart";
 import Footer from "../Components/Footer";
 
 const Dashboard = () => {

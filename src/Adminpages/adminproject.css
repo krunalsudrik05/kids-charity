@@ -1,0 +1,14 @@
+.apbg {
+  background-color: #eaeaea;
+  width: 95%;
+  justify-self: center;
+}
+
+.projectsinfo {
+  justify-items: center;
+  background-color: #eaeaea;
+}
+
+.projectsinfo img {
+  width: 50%;
+}

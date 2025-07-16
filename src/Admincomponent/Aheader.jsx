@@ -36,7 +36,7 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={"/About"}>
+                <Link className="nav-link" to={"/Admin/Projects"}>
                   PROJECTS
                 </Link>
               </li>

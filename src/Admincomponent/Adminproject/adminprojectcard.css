@@ -1,0 +1,22 @@
+.apcard .image-fluid {
+  border-radius: 50%;
+  display: flex;
+  justify-self: center;
+}
+
+.apcard .card {
+  background-color: #eaeaea;
+  border: 0px;
+  text-align: center;
+}
+
+.apcard .card-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.apcard .btn {
+  background-color: #ed6124;
+  color: white;
+  margin: 5px;
+}

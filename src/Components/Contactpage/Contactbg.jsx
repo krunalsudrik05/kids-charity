@@ -6,52 +6,52 @@ const Contactbg = () => {
       <div className="contacttxt">
         <h2 className="p-4">CONTACT US</h2>
         <div className="contactform">
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="firstname" class="form-label">
+          <form className="row g-3">
+            <div className="col-md-6">
+              <label htmlFor="firstname" className="form-label">
                 First Name
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="First name"
                 id="firstname"
               />
             </div>
-            <div class="col-md-6">
-              <label for="lastname" class="form-label">
+            <div className="col-md-6">
+              <label htmlFor="lastname" className="form-label">
                 Last Name
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="Last name"
                 id="lastname"
               />
             </div>
-            <div class="col-md-6">
-              <label for="inputEmail" class="form-label">
+            <div className="col-md-6">
+              <label htmlFor="inputEmail" className="form-label">
                 Email
               </label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="inputEmail"
                 placeholder="Email"
               />
             </div>
-            <div class="col-md-6">
-              <label for="phone" class="form-label">
+            <div className="col-md-6">
+              <label htmlFor="phone" className="form-label">
                 Contact No.
               </label>
               <input
                 type="tel"
-                class="form-control"
+                className="form-control"
                 id="phone"
                 placeholder="Mobile No."
               />
             </div>
-            <div class="col-12">
+            <div className="col-12">
               <div className="mb-3">
                 <label htmlFor="message" className="form-label">
                   Your Message
@@ -65,8 +65,8 @@ const Contactbg = () => {
                 ></textarea>
               </div>
             </div>
-            <div class="col-12">
-              <button type="submit" class="btn">
+            <div className="col-12">
+              <button type="submit" className="btn">
                 SUBMIT
               </button>
             </div>

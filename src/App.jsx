@@ -13,6 +13,8 @@ import Involveform from "./Components/Involvepage/Involveform";
 import Dashboard from "./Adminpages/Dashboard";
 import Adminproject from "./Adminpages/Adminproject";
 import Apform from "./Admincomponent/Adminproject/Apform";
+import Adminevent from "./Adminpages/Adminevent";
+import Admineventform from "./Admincomponent/Adminevent/Admineventform";
 
 const App = () => {
   return (
@@ -35,6 +37,11 @@ const App = () => {
           <Route
             path="/Admin/Projects/Projrctform"
             element={<Apform />}
+          ></Route>
+          <Route path="/Admin/Events" element={<Adminevent />}></Route>
+          <Route
+            path="/Admin/Events/Eventform"
+            element={<Admineventform />}
           ></Route>
         </Routes>
       </Router>

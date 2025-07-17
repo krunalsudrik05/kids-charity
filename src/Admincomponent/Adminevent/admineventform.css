@@ -1,0 +1,27 @@
+.addevent {
+  background-color: #eaeaea;
+  width: 95%;
+  justify-self: center;
+  margin-top: -5px;
+}
+
+.addevent h2 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.addevent {
+  width: 95%;
+  justify-self: center;
+  padding: 5px;
+}
+
+.addevent .btn {
+  display: flex;
+  justify-self: center;
+  color: white;
+  background-color: #ed6124;
+}

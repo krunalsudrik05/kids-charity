@@ -1,0 +1,47 @@
+.admineventtxt {
+  background-color: #eaeaea;
+  text-align: center;
+  width: 95%;
+  justify-self: center;
+  margin-top: -5px;
+}
+
+.admineventtxt h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.admineventtxt img {
+  height: 65%;
+  width: 65%;
+  padding: 5px;
+}
+
+.admineventtxt h3 {
+  font-weight: bold;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.admineventtxt h4 {
+  font-weight: bold;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.admineventtxt div {
+  width: 50%;
+  justify-self: center;
+}
+.admineventtxt h6 {
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.admineventtxt .btn {
+  background-color: #ed6124;
+  font-weight: bold;
+  color: white;
+  margin: 25px;
+}

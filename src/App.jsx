@@ -15,6 +15,7 @@ import Adminproject from "./Adminpages/Adminproject";
 import Apform from "./Admincomponent/Adminproject/Apform";
 import Adminevent from "./Adminpages/Adminevent";
 import Admineventform from "./Admincomponent/Adminevent/Admineventform";
+import Donation from "./Adminpages/Donation";
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
             path="/Admin/Events/Eventform"
             element={<Admineventform />}
           ></Route>
+          <Route path="/Admin/Donation" element={<Donation />}></Route>
         </Routes>
       </Router>
     </>

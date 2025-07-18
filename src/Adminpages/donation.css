@@ -1,0 +1,35 @@
+.dbg {
+  background-color: #eaeaea;
+  width: 95%;
+  justify-self: center;
+}
+
+.dbg h2 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dbg .row {
+  padding: 15px;
+  width: 100%;
+  justify-self: center;
+}
+
+.dbg .row .col-lg-3 .col-md-3 {
+  justify-content: center;
+}
+
+.dbg .card {
+  width: 80%;
+  margin: 5px;
+  justify-self: center;
+  text-align: center;
+  background-color: #f9bf51;
+}
+
+.dbg .btn {
+  background-color: #ed6124;
+  color: white;
+}
